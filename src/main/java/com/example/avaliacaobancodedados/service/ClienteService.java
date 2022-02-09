@@ -1,4 +1,4 @@
 package com.example.avaliacaobancodedados.service;
 
-public interface PassagemService {
+public interface ClienteService {
 }

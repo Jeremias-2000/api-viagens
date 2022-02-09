@@ -15,10 +15,12 @@ import javax.persistence.Id;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class Passagem {
+public class Passageiro {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
-    private Long idViagem;
-    private Long idUsuario;
+    private int id;
+    private String cpf;
+    private String nome;
+    private String email;
+    private String telefone;
 }
